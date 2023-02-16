@@ -1,0 +1,178 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Zak Nitsch
+title: Full-Stack Web Developer (Remote)
+email: zaknitsch@gmail.com
+website: zaknitsch.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username:
+github_username:  zedlove
+# stackoverflow_username: "00000001"
+# dribbble_username:
+# facebook_username:
+# flickr_username:
+# instagram_username:
+linkedin_username: zaknitsch
+# xing_username:
+# pinterest_username:
+# youtube_username:
+# googleplus_username:
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title:
+#   icon: fas fa-globe
+#   url:
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Zak and I'm a full-stack web developer with over 10 years of experience building for the web using a wide variety of tools and technologies. I have collaborated with a number of cross-functional teams leveraging my excellent ability to communicate to gain experience and leadership skills while building, maintaining and deploying robust, well-tested feature-rich web applications.
+
+  I am most skilled in: <mark>React</mark>, <mark>TypeScript</mark> and <mark>Eating Burritos</mark>
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link:
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:
+  #         #   icon: fab fa-github
+  #         #   url:
+  #       quote: >
+  #       description: | # this will include new lines to allow paragraphs
+
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: HealthHub Patient Engagement Solutions
+        link: https://healthhubsolutions.ca/
+        link_text: healthhubsolutions.ca
+        sub_title: Front End Web Developer
+        caption: March 2020 - February 2023
+        # quote: >
+        #   Developed and maintained utilities supporting a product that is used by patients and clinicians all across Canada.
+        description: | # this will include new lines to allow paragraphs
+            Contributed to analysis, high-level design, implementation, code review, testing, automation, deployment and bug fixing for various web applications, tools and services using a stack comprised of multiple technologies, languages and frameworks, including React, TypeScript, Node, Postgres, Python, Ansible, Sentry and GitLab Pipelines. Baseline code quality, functionality and standards were ensured with eslint and Jest unit tests.
+
+            As a main developer of a video calling application, amongst other product features, took codebase maintainance seriously, acting as a keen steward of internal and external software quality. Also contributed to promoting adoption and maintaining a shared eslint config, Renovate, Sentry and a custom-built component design system.
+      - layout: left
+        title: Metail
+        link: https://metail.com/
+        link_text: metail.com
+        sub_title: Full Stack Web Engineering Contractor
+        caption: January 2019 - June 2019
+        # quote: >
+        #
+        description: | # this will include new lines to allow paragraphs
+            Contracted for full-stack web services including Clojure/ClojureScript work and JavaScript for an internal Photoshop Plugin. Joined a team of 3 other developers to continue development on an internal tool to manage the workﬂow for a composed photography process.
+
+            Experience working with:
+            - Clojure/ClojureScript and various libraries (including leiningen build tool)
+            - Postgres Databases with Flyway migrations
+            - AWS infrastructure including S3, EC2, RDS and SQS
+      - layout: left
+        title: Macadamian
+        link: https://www.macadamian.com/
+        link_text: macadamian.com
+        sub_title: Intermediate Software Developer
+        caption: November 2017 - December 2018
+        # quote: >
+        #
+        description: | # this will include new lines to allow paragraphs
+            Joined several teams ranging in size from 5-10 engineers working on legacy projects and an internal product built with an array of technologies such as Knockout, TypeScript, Angular, node.js, robot testing framework, Python as well as git and gerrit for SCM
+      - layout: left
+        title: Metail
+        link: https://metail.com/
+        link_text: metail.com
+        sub_title: Junior Web Engineer
+        caption: November 2015 - September 2017
+        # quote: >
+        #
+        description: | # this will include new lines to allow paragraphs
+            Learned ClojureScript and Om.Next (a wrapper around Facebook’s React) to produce a mobile-ﬁrst overhaul of an existing desktop-focused SPA.
+            Experience working with:
+            - Clojure/ClojureScript and various libraries (including leiningen build tool)
+            - Postgres Databases with Flyway migrations
+            - AWS infrastructure including S3, EC2, RDS and SQS
+      - layout: left
+        title: Grip Limited
+        link: https://www.griplimited.com/
+        link_text: griplimited.com
+        sub_title: Front End Developer
+        caption: December 2012 - August 2015
+        # quote: >
+        #
+        description: | # this will include new lines to allow paragraphs
+            Completed various types of projects such as responsive HTML email campaigns, contest websites featuring simple JavaScript-based games (spot the differences, matching, etc.) as well as full site rebuilds.
+            - CSS written using SASS pre-compiler with custom animations controlled by JavaScript (jQuery)
+            - interacted with many third-party APIs (Facebook, Twitter, YouTube, etc.)
+            - used both SVN and Git version control system
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Humber College
+        caption: 2011 - 2012
+        sub_title: Web Design, Development and Maintenance Certificate
+        # quote: >
+        # description: | # this will include new lines to allow paragraphs
+      - layout: top
+        title: Fanshawe College
+        caption: 2008 - 2010
+        sub_title: Multimedia Design and Production
+        # quote: >
+        # description: | # this will include new lines to allow paragraphs
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in working with web technologies some of my other interests and hobbies are:
+      - Baseball
+      - Music
+      - Rubik's Cubes
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
