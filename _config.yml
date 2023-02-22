@@ -53,22 +53,24 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>React</mark>, <mark>TypeScript</mark> and <mark>Eating Burritos</mark>
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link:
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:
-  #         #   icon: fab fa-github
-  #         #   url:
-  #       quote: >
-  #       description: | # this will include new lines to allow paragraphs
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ZedChat
+        link: https://zedlove.github.io/zedchat/
+        link_text: zedlove.github.io/zedchat
+        additional_links:
+          - title: ZedChat source code
+            icon: fab fa-github
+            url: github.com/zedlove/zedchat
+          # - title:
+          #   icon: fab fa-github
+          #   url:
+        # quote: >
+          # text here
+        description: | # this will include new lines to allow paragraphs
+          This project was started in early 2023 to try using Svelte. It is still in its early stages, so it's a bit rough around the edges.
 
 
   - title: Experience # Title for the section
