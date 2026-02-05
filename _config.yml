@@ -48,9 +48,12 @@ linkedin_username: zaknitsch
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Zak and I'm a full-stack web developer with over 10 years of experience building for the web using a wide variety of tools and technologies. I have collaborated with a number of cross-functional teams leveraging my excellent ability to communicate to gain experience and leadership skills while building, maintaining and deploying robust, well-tested feature-rich web applications.
+  Hi, my name is Zak and I'm a full-stack web developer with over 10 years of experience building for the web using a wide variety of tools and technologies. I have collaborated with a number of cross-functional teams leveraging my excellent ability to communicate to gain experience and leadership skills while sharing my expertise building, maintaining and deploying robust, well-tested feature-rich web applications.
 
-  I am most skilled in: <mark>React</mark>, <mark>TypeScript</mark> and <mark>Eating Burritos</mark>
+  I am most skilled in: <mark>React</mark>, <mark>TypeScript</mark> and <mark>Eating Burritos</mark>.
+
+  I am improving in: <mark>Go</mark>, <mark>k8s</mark> and <mark>Running</mark>.
+
 
 content:
   - title: Projects # Title for the section
@@ -70,12 +73,21 @@ content:
         # quote: >
           # text here
         description: | # this will include new lines to allow paragraphs
-          This project was started in early 2023 to try using Svelte. It is still in its early stages, so it's a bit rough around the edges.
+            This project was started in early 2023 to try using Svelte. It hasn't had much attention since then, so it's a bit rough around the edges.
 
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Arctic Wolf Networks
+        link: https://arcticwolf.com/
+        link_text: arcticwolf.com
+        sub_title: Software Developer
+        caption: April 2023 - Current
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+            Develop and maintain feature-rich, well-tested web applications supporting customer onboarding across stacks using Python, Go, and TypeScript.
       - layout: left
         title: HealthHub Patient Engagement Solutions
         link: https://healthhubsolutions.ca/
